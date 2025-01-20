@@ -1,18 +1,21 @@
 React.js Frontend Developer Assignment
 This project is a React.js application designed to fetch and display a list of users from an API. It includes functionalities like searching, sorting, filtering, and viewing detailed user profiles. The app is fully responsive, incorporates React Router for navigation, and uses state management for seamless interactivity.
-
+.....................................................................................................................................
 Features
 Home Page
 Fetches and displays a list of users from the JSONPlaceholder API.
+
 Displays the following information for each user:
 Name
 Email
 City
 Search Bar: Allows filtering users by name.
+
 Sorting: Enables sorting users by name (A-Z, Z-A).
 Clickable Users: Clicking on a user navigates to their detailed profile page.
 User Detail Page
 Displays full details of a user:
+
 Name
 Email
 Phone
@@ -33,27 +36,7 @@ React Router: For navigation.
 CSS/Tailwind/Material-UI: For styling.
 React Context API/Redux: For state management.
 Netlify/Vercel: For deployment.
-Installation and Setup
-Clone the repository:
-bash
-Copy
-Edit
-git clone <repository-link>
-Navigate to the project directory:
-bash
-Copy
-Edit
-cd react-user-app
-Install dependencies:
-bash
-Copy
-Edit
-npm install
-Start the development server:
-bash
-Copy
-Edit
-npm start
+
 Open http://localhost:3000 to view it in your browser.
 API Used
 The app fetches user data from the following API: 👉 JSONPlaceholder Users API
