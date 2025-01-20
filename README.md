@@ -1,58 +1,46 @@
-React.js Frontend Developer Assignment
-This project is a React.js application designed to fetch and display a list of users from an API. It includes functionalities like searching, sorting, filtering, and viewing detailed user profiles. The app is fully responsive, incorporates React Router for navigation, and uses state management for seamless interactivity.
-.....................................................................................................................................
-Features
-Home Page
-Fetches and displays a list of users from the JSONPlaceholder API.
+# React User List App
 
-Displays the following information for each user:
-Name
-Email
-City
-Search Bar: Allows filtering users by name.
+A simple React.js application to display a list of users with features like adding, deleting, and filtering users.
 
-Sorting: Enables sorting users by name (A-Z, Z-A).
-Clickable Users: Clicking on a user navigates to their detailed profile page.
-User Detail Page
-Displays full details of a user:
+---
 
-Name
-Email
-Phone
-Company Name
-Website
-Includes a "Go Back" button for returning to the home page.
-Additional Features
-State Management: Utilizes React Context API for managing application state.
-Loading and Error Handling: Displays appropriate feedback during data fetching.
-Responsive Design: Ensures optimal user experience on both mobile and desktop devices.
-Bonus Features
-Dark/Light Mode Toggle: Provides a theme switcher for user convenience.
-Pagination: Manages and displays the user list in smaller chunks.
-Deployment: Hosted on Netlify/Vercel.
-Tech Stack
-React.js: Functional components and hooks.
-React Router: For navigation.
-CSS/Tailwind/Material-UI: For styling.
-React Context API/Redux: For state management.
-Netlify/Vercel: For deployment.
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Open http://localhost:3000 to view it in your browser.
-API Used
-The app fetches user data from the following API: 👉 JSONPlaceholder Users API
+---
 
-Deployment
-The application is live at: Netlify/Vercel Deployment Link
+## About the Project
+The **User List App** is a React-based application that allows users to:
+- View a list of users.
+- Add new users with details like name and email.
+- Delete existing users.
+- Search or filter the user list dynamically.
 
-Screenshots
-Home Page
+The purpose of this app is to demonstrate React fundamentals, state management, and basic CRUD operations.
 
+---
 
-User Detail Page
+## Features
+- Add users with custom details (name, email, etc.).
+- Delete users from the list.
+- Search users dynamically using a search bar.
+- Responsive UI for different screen sizes.
 
+---
 
-Contributions
-Feel free to fork this repository, submit issues, or create pull requests for enhancements and bug fixes.
+## Installation
+Follow these steps to set up the project locally:
 
-License
-This project is licensed under the MIT License.
+### Prerequisites
+- **Node.js**: Install it from [Node.js Official Website](https://nodejs.org/).
+- **npm**: Comes with Node.js. Verify installation using:
+  ```bash
+  npm -v
