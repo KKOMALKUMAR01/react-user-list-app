@@ -1,0 +1,80 @@
+/* UserDetail Specific Styles */
+.user-detail {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-detail h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .user-detail p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .user-detail .user-detail-heading {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .user-detail .user-detail-info {
+    font-size: 1.2rem;
+    color: #007bff;
+  }
+  
+  .user-detail button {
+    display: block;
+    width: 200px;
+    padding: 12px;
+    margin: 20px auto;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-detail button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-detail .user-detail-address {
+    margin-top: 30px;
+  }
+  
+  .user-detail .user-detail-address p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .user-detail .user-detail-address .address-heading {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .user-detail .back-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .user-detail .back-button button {
+    background-color: #ccc;
+    width: 150px;
+    margin-top: 10px;
+  }
+  
+  .user-detail .back-button button:hover {
+    background-color: #aaa;
+  }
+  
